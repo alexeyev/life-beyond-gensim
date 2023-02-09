@@ -3,3 +3,4 @@ spacy
 pandas
 gensim
 nltk
+little_mallet_wrapper
