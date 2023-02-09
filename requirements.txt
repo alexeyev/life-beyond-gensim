@@ -1,0 +1,5 @@
+tomotopy
+spacy
+pandas
+gensim
+nltk
