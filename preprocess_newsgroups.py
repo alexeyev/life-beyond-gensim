@@ -15,9 +15,9 @@ from nltk.corpus import stopwords
 from tqdm import tqdm
 
 
-def run_preprocess(news, min_token_len=3, rm_accent=True, bigram_min_cnt=5, bigram_thresh=100,
+def run_preprocess(news, min_token_len=3, rm_accent=True, bigram_min_cnt=3, bigram_thresh=100,
                    extra_stops=['from', 'subject', 're', 'edu', 'use'],
-                   postags={'NOUN', 'VERB', 'ADV', 'ADJ'}):
+                   postags={'NOUN', 'ADV', 'ADJ'}):
     '''Function wrapper to preprocess the 20Newsgroup dataset and generate ready to model results
 
     *** Inputs**

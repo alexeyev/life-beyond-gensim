@@ -7,12 +7,15 @@ Please run `python -m spacy download en` before start.
 ## Important mainstream tools
 
 * gensim
-* mallet
+* Mallet
 * tomotopy
-* tmtoolkit
 * BigArtm (TopicNet)
-* OCTIS
+* tmtoolkit?
+* ToModAPI?
+* OCTIS?
+* PyCARET?
 
 ## Evaluation benchmarks
 
 * topic_interpretability by jhlau
+* 
